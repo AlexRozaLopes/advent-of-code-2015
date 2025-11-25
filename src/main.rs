@@ -1,4 +1,5 @@
 mod day;
+mod model;
 
 use crate::day::*;
 
@@ -11,5 +12,10 @@ fn main() {
     println!(
             "Day 1: Not Quite Lisp: PART TWO - ANSWER {}",
         day_one::first_basement(include_str!("data/day-one"))
+    );
+
+    println!(
+        "Day 2: I Was Told There Would Be No Math: PART ONE - ANSWER {}",
+        day_two::square_feet_of_paper(include_str!("data/day-two"))
     )
 }
