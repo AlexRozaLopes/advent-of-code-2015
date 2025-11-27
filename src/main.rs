@@ -22,5 +22,15 @@ fn main() {
     println!(
         "Day 2: I Was Told There Would Be No Math: PART TWO - ANSWER {}",
         day_two::feet_of_ribbon(include_str!("data/day-two"))
+    );
+
+    println!(
+        "Day 3: Perfectly Spherical Houses in a Vacuum: PART ONE - ANSWER {}",
+        day_three::how_many_houses(include_str!("data/day-three"))
+    );
+
+    println!(
+        "Day 3: Perfectly Spherical Houses in a Vacuum: PART TWO - ANSWER {}",
+        day_three::how_many_houses_with_robot_santa(include_str!("data/day-three"))
     )
 }
